@@ -3,7 +3,7 @@
 /*
 (a) 86 takes 6 characters (86 is the most right two characters) and 1040 takes 4 characters which is just suitable; 
     %d prints demical type in minimum amount of space.
-(b) 12 means 12 characters in total; .5 means 5 digits precision; e means print in exponential form. 
+(b) 12 means 12 characters; .5 means 5 digits precision; e means print in exponential form. 
     The exponential form of the numer is right aligned.
 (c) .4 means 4 digits precision, %f prints float type.
 (d) 6 characters after all; %g means the compiler decides to print in decimal or exponential form depends on the sie of the number;
