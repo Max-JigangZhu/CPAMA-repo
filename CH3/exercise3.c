@@ -3,7 +3,7 @@
 #define y 3.14
 
 /*
-The space precedes any % will display a white spcace percedes the corresponding number; 
+The space precedes any % will display a white spcace perceding the corresponding number; 
 the space after a letter will have no effect to the corresponding number.
 (a) not equivalent
 (b) not equivalent
