@@ -1,3 +1,0 @@
-/*
-It hard to know how many underscores are used.
-*/
