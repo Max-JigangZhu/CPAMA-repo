@@ -1,10 +1,4 @@
-#include <stdio.h>
-
-int main(void) {
-    int i = 0;
-    for (; i++ < 10;) {
-        printf("%d\n ", i);
-    }
-
-    return 0;
-}
+/* 
+(c) is not equivalent to the other two. Even though they all have 10 iterations, 
+    (c) starts from i = 1 to i = 10; however, (a) and (b) starts from i = 0 to i = 9
+*/
