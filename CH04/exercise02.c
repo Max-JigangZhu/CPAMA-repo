@@ -1,10 +1,5 @@
-#include <stdio.h>
-
-int main(void) {
-    int i, j;
-    printf("Enter two positive integers: ");
-    scanf("%d %d", &i, &j);
-    printf("%d, %d\n", (-i)/j, -(i/j));
-
-    return 0;
-}
+/* 
+In C89 if either of the i and j are negative, the division can either be rounded up or rounded down.
+Therefore, the result of the two expression may differ.
+In C99, they always have the same value since the division always towards 0
+*/
