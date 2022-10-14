@@ -1,40 +1,44 @@
 #include <stdio.h>
 
 int main(void) {
-    char c;
+    char c[20], now;
+    int i = 0;
 
     printf("Enter phone number: ");
+    scanf("%s", c);
 
-    while(scanf("%1c", &c)) {
-        switch(c) {
+    now = c[i++];
+    while(now) {
+        switch(now) {
             case 'A': case 'B': case 'C':
-                c = '2';
+                now = '2';
                 break;
             case 'D': case 'E': case 'F':
-                c = '3';
+                now = '3';
                 break;
             case 'G': case 'H': case 'I':
-                c = '4';
+                now = '4';
                 break;
             case 'J': case 'K': case 'L':
-                c = '5';
+                now = '5';
                 break;
             case 'M': case 'N': case 'O':
-                c = '6';
+                now = '6';
                 break;
             case 'P': case 'R': case 'S':
-                c = '7';
+                now = '7';
                 break;
             case 'T': case'U': case 'V':
-                c = '8';
+                now = '8';
                 break;
             case 'W': case 'X': case 'Y':
-                c = 9;
+                now = 9;
                 break;
             default:
                 break;
         }
-        printf("%c", c);
+        printf("%c", now);
+        now = c[i++];
     }
     printf("\n");
 
